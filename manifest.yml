@@ -5,3 +5,5 @@ applications:
     timeout: 180
     health-check-type: process
     buildpack: binary_buildpack
+    services:
+     - e2e-autoscale-service
