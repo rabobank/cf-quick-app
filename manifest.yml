@@ -4,5 +4,7 @@ applications:
     disk_quota: 64M
     timeout: 180
     health-check-type: process
+    services:
+      - e2e-autoscale-service
     buildpacks: 
      - binary_buildpack
